@@ -51,7 +51,8 @@ header {
 .button-header {
     background-color: transparent;
     color: var(--primary-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-color);
     margin-right: 5rem;
     margin-top: 0.8rem;
 }
