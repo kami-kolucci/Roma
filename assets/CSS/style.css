@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Santio;
+    src: url('../font/SANTIO/TTF/Santio\ regular.ttf');
+}
+
+@font-face {
+    font-family: Santio;
+    src: url("../font/SANTIO/OTP/Santio\ regular.otf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Santio;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/cleo-topper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+}
+
+.nav-box {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.button-header {
+    background-color: transparent;
+    color: white;
+    margin-right: 5rem;
+    border: none
+}
+
+.page1-text {
+    font-size: 4rem;
+    color: white;
+    width: 11rem;
+    margin: 11rem 0rem 5rem 11rem;
+}
+/*  ******** page 2******* */
+.learn-more {
+    margin: 7rem 0rem 0rem 3rem;
+}
+
+.v-logo {
+    color: #E7BC0E;
+    font-size: 2.5rem;
+    margin-left: 19rem;
+    margin-bottom: 10rem;
+}
+
+.page2-text {
+    font-size: 1.5rem;
+    letter-spacing: 0.7rem;
+    font-weight: 900;
+    text-shadow: 0 0 1.5px rgb(16, 54, 40);
+    color: rgb(16, 54, 40);
+    width: 25rem;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+.page2-text span {
+    color: white;
+}
+/* ***** page 3 ******* */
+
+.generel-logos {
+    width: 5rem;
+    margin: 6rem 0rem 1.5rem 15rem;
+}
+
+.page3-title {
+    color: #E7BC0E;
+    font-size: 5rem;
+    margin-left: 15rem;
+}
+
+.page3-text {
+    color: #E7BC0E;
+    font-size: 2rem;
+    margin-left: 15rem;
+    width: 30rem;
+}
+
+.page3-text span {
+    color: white;
+}
+
+.page4-text {
+    color: #CB91B6;
+    font-size: 2rem;
+    margin-left: 15rem;
+} 
+
+.page4-text span{
+    color: white;
+}
+
+.page4-title {
+    color: #CB91B6;
+    font-size: 5rem;
+    margin-left: 15rem;
+}
+
+
+
+
+
