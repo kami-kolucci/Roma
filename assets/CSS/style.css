@@ -2,12 +2,7 @@
     font-family: Santio;
     src: url('../font/SANTIO/TTF/Santio\ regular.ttf');
 }
-
-@font-face {
-    font-family: Santio;
-    src: url("../font/SANTIO/OTP/Santio\ regular.otf")
-}
-
+/* ***** general styling ****** */
 *{
     margin: 0;
     padding: 0;
@@ -18,13 +13,25 @@ html {
     font-family: Santio;
 }
 
+:root{
+    --primary-color: white;
+    --secondary-color: #E7BC0E;
+    --third-color: #6BC1A3;
+    --fourth-color: #CB91B6;
+    --fifth-color: black;
+    --last-color: #7EB8E1;
+}
+
 section {
     width: 100vw;
     height: 100vh;
     background-image: url('../img/cleo-topper.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
+
+/*  ******** page 1 ******* */
 
 header {
     display: flex;
@@ -43,24 +50,27 @@ header {
 
 .button-header {
     background-color: transparent;
-    color: white;
+    color: var(--primary-color);
+    text-decoration: none;
     margin-right: 5rem;
-    border: none
+    margin-top: 0.8rem;
 }
 
 .page1-text {
     font-size: 4rem;
-    color: white;
+    color: var(--primary-color);
     width: 11rem;
     margin: 11rem 0rem 5rem 11rem;
 }
-/*  ******** page 2******* */
+
+/*  ******** page 2 ******* */
+
 .learn-more {
     margin: 7rem 0rem 0rem 3rem;
 }
 
 .v-logo {
-    color: #E7BC0E;
+    color: var(--secondary-color);
     font-size: 2.5rem;
     margin-left: 19rem;
     margin-bottom: 10rem;
@@ -70,55 +80,137 @@ header {
     font-size: 1.5rem;
     letter-spacing: 0.7rem;
     font-weight: 900;
-    text-shadow: 0 0 1.5px rgb(16, 54, 40);
-    color: rgb(16, 54, 40);
+    color: var(--third-color);
     width: 25rem;
     margin: 3rem 3rem 3rem 3rem;
 }
 
 .page2-text span {
-    color: white;
+    color: var(--primary-color);
 }
+
 /* ***** page 3 ******* */
 
-.generel-logos {
+.general-logos {
     width: 5rem;
     margin: 6rem 0rem 1.5rem 15rem;
 }
 
 .page3-title {
-    color: #E7BC0E;
+    color: var(--secondary-color);
     font-size: 5rem;
     margin-left: 15rem;
 }
 
 .page3-text {
-    color: #E7BC0E;
+    color: var(--secondary-color);
     font-size: 2rem;
     margin-left: 15rem;
-    width: 30rem;
+    width: 30vw;
 }
 
 .page3-text span {
-    color: white;
+    color: var(--primary-color)
 }
 
+/* ******* page 4 ******** */
+
 .page4-text {
-    color: #CB91B6;
+    color: var(--fourth-color);
     font-size: 2rem;
     margin-left: 15rem;
 } 
 
 .page4-text span{
-    color: white;
+    color: var(--primary-color);
 }
 
 .page4-title {
-    color: #CB91B6;
+    color: var(--fourth-color);
     font-size: 5rem;
     margin-left: 15rem;
 }
 
+/* ******* page 5 ******** */
+
+.page5-title {
+    color: var(--third-color);
+    font-size: 5rem;
+    margin-left: 15rem;
+}
+
+.page5-text {
+    color: var(--third-color);
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+
+/* ******* page 6 ******** */
+
+.page6-text {
+    color: var(--last-color);
+    font-size: 2rem;
+    margin-left: 15rem;
+    width: 34vw;
+}
+
+.page6-text span {
+    color: var(--primary-color);
+    background-color: var(--fifth-color);  
+}
+
+/* ******* page 7 ******** */
+
+.page7-family-photo {
+    background-image: url('../img/kid.png');
+    background-attachment: scroll;
+}
+
+/* ******* page 8 ******** */
+
+.page8-last-page {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    background-color: var(--fifth-color);  
+    background-attachment: scroll;
+    justify-content: flex-end
+}
+
+.page8-text {
+    color: var(--primary-color);
+    font-size: 4rem;
+    padding: 10rem 0rem 2rem 6rem;
+    width: 20vw;
+}
+
+/* ****** Donate Button ****** */
+
+.button-donate {
+    border: 1px solid var(--primary-color);
+    padding: 6px 9px;
+    color: var(--primary-color);
+    background-color: transparent;
+    margin-left: 6rem;
+    font-size: 1.4rem;
+    width: 10vw;
+}
+
+.page8-last-page .button-donate:hover {
+    box-shadow: 11px 11px 1px var(--primary-color); 
+}
+
+
+.last-text {
+    color: var(--primary-color);
+    justify-content: center;
+    align-self: center;
+    margin-top: 10rem;
+}
+
+.last-text span {
+    color: var(--third-color);
+}
 
 
 
